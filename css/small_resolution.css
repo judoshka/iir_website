@@ -1,0 +1,709 @@
+@media screen and (width:1366px) {
+  html, body {
+    max-width: 1366px;
+    overflow: hidden;
+  }
+
+  .menu-container {
+    grid-template-columns: 95px 210px 220px auto;
+  }
+
+  .to-candidate-container .middle-container {
+    grid-template-columns: 290px auto 110px;
+  }
+
+  .to-candidate-container .panel-content {
+    display: grid;
+    grid-template-columns: 95px auto;
+  }
+
+  .to-candidate-container .panel-content a {
+    font-size: 16px;
+  }
+
+  .to-candidate-container .to-candidate-image {
+    position: relative;
+    width: 900px;
+    height: 195px;
+    background-repeat: round;
+  }
+
+  .to-candidate-container .to-candidate-description {
+    width: 900px;
+  }
+  .to-candidate-container .side-menu-decor .dots {
+    margin-left: -50px;
+  }
+
+  .to-candidate-container .to-candidate-text h3 {
+    font-size: 28px;
+    line-height: 10px;
+  }
+
+  .to-candidate-container .to-candidate-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .to-candidate-content.master .entrance-icon {
+    width: 80px;
+    height: 92px;
+    background-position: center;
+    background-repeat: round;
+  }
+
+  .to-candidate-content.phd .entrance-icon {
+    width: 80px;
+    height: 92px;
+    background-position: center;
+    background-repeat: round;
+  }
+
+    .to-candidate-content.bachelor .entrance-icon {
+    width: 80px;
+    height: 92px;
+    background-position: center;
+    background-repeat: round;
+  }
+
+  .to-candidate-container {
+    grid-template-rows: 110px auto;
+  }
+
+  .menu-container .menu-icon {
+    padding: 30px;
+  }
+
+  .entrance-square {
+    width: 165px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1px auto;
+    margin-top: 55px;
+  }
+
+  .to-candidate-container .to-candidate-image .to-candidate-title {
+    top: -30px;
+    right: 20px;
+    width: 220px;
+    height: 60px;
+  }
+
+  .to-candidate-container .to-candidate-image h2 {
+    font-size: 25px;
+    line-height: 20px;
+  }
+
+  .entrance-square .left-line {
+    height: 85px
+  }
+
+  .entrance-square .entrance-info-square {
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 40px auto;
+  }
+
+  .entrance-square .entrance-info-numbers {
+    font-size: 40px;
+  }
+
+  .entrance-square .entrance-info-description {
+    font-size: 13px;
+  }
+
+  .to-candidate-description .title h4 {
+    margin: 2px;
+    font-size: 20px;
+    line-height: 21px;
+  }
+
+  .to-candidate-description .title h3 {
+    margin: 2px;
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .interactive-content .hover-icons {
+    height: 200px;
+  }
+
+  .to-candidate-container .side-menu-items > div {
+    height: 32px;
+  }
+
+  .to-candidate-container .side-menu-decor .dots {
+    background-repeat: round;
+    margin-top: -70px;
+    height: 250px;
+  }
+
+  .to-candidate-content.master.entrance{
+    display: grid;
+    grid-template-rows: 200px 200px auto;}
+
+  .interactive-image-wrapper {
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .interactive-image.master {
+    width: 500px;
+    height: 270px;
+  }
+
+  .interactive-image.phd {
+    width: 500px;
+    height: 270px;
+  }
+
+  .interactive-image.bachelor {
+    width: 500px;
+    height: 270px;
+  }
+
+  .interactive-content .hover-text span {
+    font-size: 12px;
+  }
+
+  .to-candidate-container .side-menu-decor .bottom-curves {
+    height: 230px;
+    width: 390px;
+    background-repeat: round;
+    bottom: 30px;
+  }
+
+  .interactive-content .hover-icon {
+    height: 60px;
+    width: 60px;
+    background-repeat: round;
+  }
+
+  .to-candidate-container .to-candidate-description {
+    padding-top: 10px;
+  }
+
+  .to-candidate-container .to-candidate-description .title h2 {
+    font-size: 50px;
+    line-height: 72px;
+  }
+
+  .admission-polygons .admission {
+    padding: 25px;
+    margin-right: 20px;
+    height: 170px;
+  }
+
+  .to-candidate-description .over-edge-container {
+    width: 1030px;
+    left: -60px;
+    position: absolute;
+    margin-top: 85px;
+  }
+
+  .admission-polygons .admission .admission-header h3 {
+    font-size: 25px;
+    line-height: 31px;
+  }
+
+  .admission-polygons .admission .admission-description p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .admission-polygons .admission .admission-tags span {
+    font-size: 13px;
+    line-height: 12px;
+    margin-right: 25px;
+  }
+
+  .admission-polygons .polygon {
+    position: relative;
+    width: 193px;
+    height: 220px;
+  }
+
+  .admission-polygons .polygon .polygon-icon .bachelor-icon
+  {
+    width: 80px;
+    height: 92px;
+    background-position: center;
+    background-repeat: round;
+  }
+
+  .admission-polygons .polygon .polygon-icon .master-icon
+  {
+    width: 80px;
+    height: 92px;
+    background-position: center;
+    background-repeat: round;
+  }
+
+  .admission-polygons .polygon .polygon-icon .phd-icon
+  {
+    width: 80px;
+    height: 92px;
+    background-position: center;
+    background-repeat: round;
+  }
+
+  .admission-polygons .polygon .polygon-icon h4 {
+    margin: 10px;
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .admission-polygons .polygon .polygon-icon {
+    padding: 20px;
+  }
+
+  .admission-polygons .polygon .polygon-time-cycle {
+    padding: 11px 17px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .admission-polygons .admission .admission-tags {
+    bottom: 15px;
+  }
+
+  .hover-icon-container {
+    grid-template-columns: 80px 1fr;
+  }
+
+  .home-container .menu-container .circle {
+    right: 20px;
+    top: 11px;
+    height: 162px;
+    width: 162px;
+    background-repeat: round;
+  }
+
+  .home-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 110px auto 70px;
+  }
+
+  .home-container .middle-container {
+    grid-template-columns: 95px 640px auto 100px;
+  }
+
+  .lecture-room {
+    height: 525px;
+    width: 720px;
+    top: -53px;
+    right: 0;
+    background-repeat: round;
+  }
+
+  .menu-container .logo, .menu-logo-container .logo {
+    height: 42px;
+    width: 213px;
+    background-repeat: round;
+  }
+
+  .name-container {
+    grid-template-rows: 230px 60px 50px;
+    margin-bottom: 115px;
+  }
+
+  .name-container > h2 {
+    width: 280px;
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .name-container > h1 {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 3px;
+  }
+
+  .name-container > .decor-line {
+    left: -50px;
+    width: 140px;
+  }
+
+  .bottom-container .square {
+    width: 135px;
+    height: 135px;
+    left: 80px;
+    background-repeat: round;
+  }
+
+  .social-buttons-wrapper {
+    top: 110px;
+  }
+
+  .social-container .social-button a {
+    font-size: 14px;
+  }
+
+  .social-container .social-button {
+    margin: 110px 0;
+  }
+
+  .to-candidate-container .to-candidate-image.faq {
+    margin-bottom: 30px;
+  }
+
+  .faq-container h3 {
+    font-size: 30px;
+  }
+
+  .flip-wrapper {
+    margin-top: 30px;
+  }
+
+  .questions-list {
+    margin-top: 25px;
+  }
+
+  .faq-image {
+    width: 400px;
+    height: 400px;
+    background-repeat: round;
+  }
+
+  .flip-box {
+    background-color:
+    transparent;
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+  }
+
+  .faq-content {
+    grid-template-columns: 430px auto;
+  }
+
+  .answer-item {
+    height: 320px;
+    font-size: 14px;
+    line-height: 170%;
+    padding: 15px;
+    cursor: default;
+  }
+
+  .questions-list {
+    height: 415px;
+    margin-top: 35px;
+  }
+
+  .questions-list-item {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .menu-container.about-us {
+    grid-template-columns: 95px 210px auto;
+  }
+
+  .about-us-top-decor {
+    grid-template-columns: 115px 260px 1fr;
+    margin-left: 310px;
+  }
+
+  .about-us-top-decor .about-us-phrase {
+    font-size: 23px;
+    line-height: 37px;
+  }
+
+  .about-us-top-decor .curved-line {
+    width: 250px;
+    height: 17px;
+    background-repeat: round;
+  }
+
+  .about-us-top-decor .three-pacmen {
+    width: 135px;
+    height: 50px;
+    background-repeat: round;
+  }
+
+  .middle-container.about-us {
+    grid-template-columns: auto 145px;
+  }
+
+  .about-us.title {
+    font-size: 80px;
+    line-height: 106px;
+  }
+
+  .our-achievements h3 {
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .our-achievements h5 {
+    margin: 0 0 36px 0;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .our-achievements-icon .stats {
+    margin: 0 7px;
+    font-size: 38px;
+    line-height: 47px;
+  }
+
+  .our-achievements-icon .stats-description {
+    width: 142px;
+    margin: 14px 40px 0 7px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .to-candidate-container .social-container .social-button {
+    margin: 100px 0;
+  }
+
+  .our-target {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    margin-top: 40px;
+  }
+
+  .target-icon {
+    width: 92px;
+    height: 92px;
+    background-repeat: round;
+  }
+
+  .target-description h5 {
+    font-size: 17px;
+    line-height: 18px;
+  }
+
+  .target-description p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .target-dots {
+    height: 40px;
+    width: 228px;
+    background-repeat: round;
+    right: -113px;
+  }
+
+  .our-achievements-background {
+    position: absolute;
+    left: 0;
+    top: 265px;
+    width: 100%;
+    height: 260px;
+    min-width: 1366px;
+  }
+
+  .history-text-rocket-image {
+    width: 400px;
+    height: 275px;
+    background-repeat: round;
+  }
+
+  .history-text p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .history-text-windmill-image {
+    width: 400px;
+    height: 275px;
+    background-repeat: round;
+  }
+
+  .history-text-row {
+    display: grid;
+    grid-template-columns: 420px 420px;
+  }
+
+  .rectangle-dots {
+    position: absolute;
+    left: 40px;
+    top: 75px;
+    width: 110px;
+    height: 225px;
+    background-repeat: round;
+  }
+
+  .history-text-right-decor {
+    right: -25px;
+    width: 15px;
+    height: 297px;
+    background-repeat: round;
+  }
+
+  .partnership-image {
+    width: 840px;
+    height: 202px;
+    background-repeat: round;
+  }
+
+  .middle-container-inner.partnership h2 {
+    margin: 10px;
+    font-size: 46px;
+    line-height: 62px;
+  }
+
+  .arrow {
+    height: 100px;
+    width: 40px;
+  }
+
+  .carousel-body {
+    height: 100px;
+  }
+
+  .arrow-wrapper {
+    height: 100px;
+  }
+
+  .carousel-body-inner {
+    width: 840px;
+  }
+
+  .carousel-item {
+    height: 100px;
+  }
+
+  .carousel-image {
+    margin: 0px 42px;
+    height: 56px;
+  }
+
+  .carousel-image.mon {
+    width: 56px;
+  }
+
+
+  .vertical-carousel {
+    margin-bottom: 36px;
+  }
+
+  .carousel-header h3 {
+    font-size: 20px;
+    line-height: 21px;
+  }
+
+  .contacts-container {
+    grid-template-rows: 110px auto;
+  }
+
+  .contacts-container .middle-container {
+    grid-template-columns: auto 1057px auto;
+  }
+
+  .contacts-container .rectangle-dots {
+    width: 170px;
+    left: 50px;
+    top: 180px;
+  }
+
+  .address-container {
+    margin: 35px 70px;
+    grid-template-rows: 28px 95px 64px auto;
+  }
+
+  .contacts-container .contacts-background {
+    width: 1060px;
+  }
+
+  .contact-person p {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 11px 0;
+  }
+
+  .address-info p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 11px 0;
+  }
+
+
+  .address-container .title h3 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .globus {
+    left: 145px;
+    width: 65px;
+    height: 100px;
+  }
+
+  .map-wrapper {
+    width: 370px;
+    height: 256px;
+  }
+
+  .contacts-info {
+    grid-template-rows: 525px;
+  }
+
+  .mail-container .mail-form-background {
+    bottom: 32px;
+    width: 380px;
+    height: 545px;
+  }
+
+  mail-container .mail-form {
+    height: 610px;
+    grid-template-rows: 190px 43px 43px 43px 156px auto;
+  }
+
+  .mail-container .form-field {
+    width: 380px;
+  }
+
+  .mail-container input {
+    border-radius: 6px;
+    height: 36px;
+    width: 320px;
+    margin: 0 30px;
+    padding: 7px;
+  }
+
+  .mail-container textarea {
+    border-radius: 6px;
+    height: 132px;
+    width: 320px;
+    margin: 0 30px;
+    padding: 7px;
+  }
+
+  .mail-container .form-button {
+    width: 150px;
+    height: 43px;
+    border-radius: 6px;
+    font-size: 18px;
+    bottom: 50px
+  }
+
+  .contacts-container .circle {
+    height: 150px;
+    width: 150px;
+    right: -80px;
+    top: -71px;
+  }
+
+  .mail-container .mail-form {
+    height: 611px;
+    grid-template-rows: 190px 42px 42px 42px 156px auto;
+  }
+
+  .ymaps-2-1-75-map {
+    position: relative;
+    z-index: 0;
+    display: block;
+    width: 360px;
+    height: 246px;
+  }
+}
